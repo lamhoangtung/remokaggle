@@ -16,6 +16,12 @@ Quick script to setup SSH to Kaggle Kernel for Deep Learning. In order to use th
 
     ![ssh](./fig/ssh.png)
 
+    If this step fails, try running the cell again or create a new cell with just the following and read the JSON output to    find the hostname and port.
+    ```bash
+    ! curl -s http://localhost:4040/api/tunnels
+    ```
+
+! curl -s http://localhost:4040/api/tunnels
 ### **How to SSH**    
 - `ssh root@0.tcp.ngrok.io -p 10965` <-- port number dictated in above output
 - With root password also dictated in above output
