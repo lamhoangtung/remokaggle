@@ -3,7 +3,7 @@ cd ~
 wget https://raw.githubusercontent.com/lamhoangtung/kaggle-kernel-setup/master/.bashrc
 
 # htop, tmux, nano ...
-apt-get install nano htop tmux cmake libncurses5-dev libncursesw5-dev git
+apt-get install nano htop tmux cmake libncurses5-dev libncursesw5-dev git tree
 
 # nvtop
 git clone https://github.com/Syllo/nvtop.git
