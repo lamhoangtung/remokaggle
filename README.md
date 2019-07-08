@@ -21,7 +21,6 @@ Quick script to setup SSH to Kaggle Kernel for Deep Learning. In order to use th
     ! curl -s http://localhost:4040/api/tunnels
     ```
 
-! curl -s http://localhost:4040/api/tunnels
 ### **How to SSH**    
 - `ssh root@0.tcp.ngrok.io -p 10965` <-- port number dictated in above output
 - With root password also dictated in above output
