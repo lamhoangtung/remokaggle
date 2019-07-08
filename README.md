@@ -22,7 +22,7 @@ Quick script to setup SSH to Kaggle Kernel for Deep Learning. In order to use th
 - Keep in mind this server can only live for ***9 hours*** at max.
 
 ## How to quickly setup this server
-Kaggle Kernel already provide many Machine Learning and Deep Learning package and library ready to use with a powerful NVIDIA P100 GPU so you might be good to go. But if you want something more that I usually use. Run this to get more:
+Kaggle Kernel already provide many Machine Learning and Deep Learning package and library ready to use with a powerful **NVIDIA Tesla P100 GPU** so you might be good to go. But if you want something more that I usually use. Run this to get more:
 ```bash
 cd ~
 wget https://github.com/lamhoangtung/kaggle-kernel-setup/raw/master/install_common.sh
