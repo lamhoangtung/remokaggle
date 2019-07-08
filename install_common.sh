@@ -21,5 +21,5 @@ make install # You may need sufficient permission for that (root)
 pip install drive-cli
 drive --remote login #--noauth_local_webserver
 
-#
+# Upgrade tensorboardX to avoid some small bugs
 pip install tensorboardX --upgrade
