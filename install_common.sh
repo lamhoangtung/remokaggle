@@ -1,6 +1,8 @@
 # Better bash env
 cd ~
 wget https://raw.githubusercontent.com/lamhoangtung/kaggle-kernel-setup/master/.bashrc
+mv .bashrc.1 .bashrc
+source .bashrc
 
 # htop, tmux, nano ...
 apt-get install nano htop tmux cmake libncurses5-dev libncursesw5-dev git tree zip

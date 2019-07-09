@@ -23,3 +23,5 @@ conda activate base
 LD_LIBRARY_PATH=/usr/lib64-nvidia
 export LD_LIBRARY_PATH
 export LC_ALL=C.UTF-8
+export LC_ALL=C.UTF-8
+export LANG=C.UTF-8
