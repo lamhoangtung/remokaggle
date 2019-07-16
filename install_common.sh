@@ -28,9 +28,10 @@ pip install tensorboardX --upgrade
 pip install ipdb
 
 # Setting up swap
-dd if=/dev/zero of=/swapfile-additional bs=1M count=32768
-mkswap /swapfile-additional
-echo "/swapfile-additional			swap swap    0   0" >> /etc/fstab
-mount -a
-swapon -a
-free -m
+# dd if=/dev/zero of=/swapfile-additional bs=1M count=32768
+# mkswap /swapfile-additional
+# cdmod 600 /swapfile-additional
+# echo "/swapfile-additional    swap swap    0   0" >> /etc/fstab
+# mount -a
+# swapon -a
+# free -m
