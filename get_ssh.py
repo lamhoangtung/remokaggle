@@ -1,5 +1,6 @@
 # Generate root password
 import random, string
+import time
 
 # Copy authtoken from https://dashboard.ngrok.com/auth
 authtoken = 'YOUR_AUTH_TOKEN'
@@ -41,5 +42,5 @@ import requests, json
 url = json.loads(requests.get('http://localhost:4040/api/tunnels').text)['tunnels'][0]['public_url']
 os.system("echo '{}'".format(url))
 
-! echo 'Going to sleep infinity ;)'
-! sleep infinity
+while True:
+	time.sleep(10000)
