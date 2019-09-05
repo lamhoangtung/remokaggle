@@ -20,8 +20,12 @@ apt-get install nano htop tmux cmake libncurses5-dev libncursesw5-dev git tree z
 # make install # You may need sufficient permission for that (root)
 
 # drive-cli
-pip install drive-cli
-drive --remote login #--noauth_local_webserver
+cd ~
+wget https://github.com/gdrive-org/gdrive/releases/download/2.1.0/gdrive-linux-x64
+mv gdrive-linux-x64 gdrive
+chmod +x gdrive
+install gdrive /usr/local/bin/gdrive
+gdrive about
 
 # Upgrade tensorboardX to avoid some small bugs
 pip install tensorboardX --upgrade
