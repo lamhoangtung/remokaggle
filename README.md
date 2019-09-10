@@ -6,7 +6,7 @@ Quick script to setup SSH to Kaggle Kernel for Deep Learning. In order to use th
 2. Modify the [get_ssh.py](./get_ssh.py) file:
     1. Replace your `ngrok` authentication token at line `7` in 
     2. Set a password for your user at line `10` (just in case you need it, we will use SSH Key authentication from now on)
-    3. Create a public [Github Gist](https://gist.github.com) with file name `authorized_keys` and paste your **public SSH key** (usually located at `~/.ssh/id_rsa`) as the content of the gist. 
+    3. Create a public [Github Gist](https://gist.github.com) with file name `authorized_keys` and paste your **public SSH key** (usually located at `~/.ssh/id_rsa.pub`) as the content of the gist. 
     4. If you don't have an SSH key (RSA Key Pair), please refer to the first step in [this article](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1804)
     4. Replace **the link to raw content of your gist** at line `11`
 
