@@ -1,5 +1,5 @@
-# SSH Kaggle Kernel Setup :rocket:
-Quick script to setup SSH to Kaggle Kernel for Deep Learning. In order to use that sexy P100 for free (and without many restriction of Jupyter Notebook) :P
+# Remokaggle :rocket:
+A quick script to setup SSH to Kaggle Kernel for Deep Learning. In order to use that sexy P100 for free (and without many restriction of Jupyter Notebook) :P
 
 ## Preparation
 1. Go to https://dashboard.ngrok.com/auth and get your authentication token after register with Google or Github (You only have to do this once)
