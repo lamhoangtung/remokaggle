@@ -8,16 +8,16 @@ source .bashrc
 apt-get install nano htop tmux cmake libncurses5-dev libncursesw5-dev git tree zip
 
 # nvtop
-# git clone https://github.com/Syllo/nvtop.git
-# mkdir -p nvtop/build && cd nvtop/build
-# cmake ..
+git clone https://github.com/Syllo/nvtop.git
+mkdir -p nvtop/build && cd nvtop/build
+cmake ..
 
 # If it errors with "Could NOT find NVML (missing: NVML_INCLUDE_DIRS)"
 # try the following command instead, otherwise skip to the build with make.
-# cmake .. -DNVML_RETRIEVE_HEADER_ONLINE=True
+cmake .. -DNVML_RETRIEVE_HEADER_ONLINE=True
 
-# make
-# make install # You may need sufficient permission for that (root)
+make
+make install # You may need sufficient permission for that (root)
 
 # drive-cli
 cd ~
