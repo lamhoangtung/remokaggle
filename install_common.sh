@@ -5,7 +5,7 @@ mv .bashrc.1 .bashrc
 source .bashrc
 
 # htop, tmux, nano ...
-apt-get install nano htop tmux cmake libncurses5-dev libncursesw5-dev git tree zip
+apt-get -y install nano htop tmux cmake libncurses5-dev libncursesw5-dev git tree zip
 
 # drive-cli
 cd ~
